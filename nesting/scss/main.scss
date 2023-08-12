@@ -1,0 +1,48 @@
+// .main {
+//   background-color: lightblue;
+
+//   .main-heading {
+//     font-size: 2em;
+//   }
+
+//   .main-paragraph {
+//     font-size: 1.5em;
+//   }
+// }
+
+// .main,
+// footer {
+//   h1,
+//   p {
+//     letter-spacing: 2px;
+//   }
+// }
+
+// .main {
+//   .container & {
+//     background-color: lightblue;
+//   }
+
+//   &:hover {
+//     background-color: salmon;
+//   }
+// }
+
+.main {
+  #{&}-heading {
+    font-size: 2em;
+  }
+
+  & &-paragraph {
+    font-size: 1.3em;
+  }
+}
+
+// .footer {
+//   & &-heading {
+//     font-size: 1em;
+//   }
+//   & &-paragraph {
+//     font-size: 0.5em;
+//   }
+// }
