@@ -1,0 +1,99 @@
+.square-profile {
+  width: 200px;
+  height: 200px;
+  border: 3px solid white;
+  box-shadow: 1px 1px 3px rgba(0, 0, 0, 0.3);
+}
+
+.circle-profile {
+  width: 200px;
+  height: 200px;
+  border: 3px solid white;
+  box-shadow: 1px 1px 3px rgba(0, 0, 0, 0.3);
+  border-radius: 50%;
+  -webkit-border-radius: 50%;
+  -moz-border-radius: 50%;
+  -ms-border-radius: 50%;
+  -o-border-radius: 50%;
+}
+
+.nav {
+  background-color: #eaeaea;
+  color: #333;
+}
+
+.right {
+  width: 0;
+  height: 0;
+  border-color: transparent;
+  border-style: solid;
+  border-width: 1em;
+  border-top-color: black;
+}
+
+.gradient {
+  margin: 0;
+  padding: 0;
+  list-style: none;
+}
+.gradient li:nth-child(1) {
+  padding: 4px;
+  background-color: #0a0aff;
+}
+.gradient li:nth-child(2) {
+  padding: 4px;
+  background-color: #1414ff;
+}
+.gradient li:nth-child(3) {
+  padding: 4px;
+  background-color: #1f1fff;
+}
+.gradient li:nth-child(4) {
+  padding: 4px;
+  background-color: #2929ff;
+}
+.gradient li:nth-child(5) {
+  padding: 4px;
+  background-color: #3333ff;
+}
+.gradient li:nth-child(6) {
+  padding: 4px;
+  background-color: #3d3dff;
+}
+.gradient li:nth-child(7) {
+  padding: 4px;
+  background-color: #4747ff;
+}
+.gradient li:nth-child(8) {
+  padding: 4px;
+  background-color: #5252ff;
+}
+.gradient li:nth-child(9) {
+  padding: 4px;
+  background-color: #5c5cff;
+}
+.gradient li:nth-child(10) {
+  padding: 4px;
+  background-color: #6666ff;
+}
+
+.socials {
+  font-size: 2em;
+  font-weight: 400;
+  font-family: Arial, Helvetica, sans-serif;
+}
+.socials .youtube {
+  color: red;
+}
+.socials .facebook {
+  color: blue;
+}
+.socials .twitter {
+  color: lightblue;
+}
+.socials .instagram {
+  color: pink;
+}
+.socials .twitch {
+  color: purple;
+}/*# sourceMappingURL=main.css.map */
